@@ -20,7 +20,7 @@ Read these as few-shot examples for what you'll add.
 ## What you'll add
 
 | New metric | Aggregation |
-|---|---|---|
+|---|---|
 | `total_output_tokens` | sum of per-row `total_output_tokens` |
 | `mean_output_tokens` | sum / n |
 | `request_latency_p50_seconds` | `np.percentile(latencies, 50)` |
