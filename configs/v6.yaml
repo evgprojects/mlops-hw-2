@@ -1,0 +1,18 @@
+display_name: "Sandwich (input + output validator)"
+description: "Input classifier in front + output validator behind. Defense in depth."
+model:
+  name: nvidia/Nemotron-3-Nano-Omni
+  temperature: 0.0
+system_prompt: prompts/v2_explicit_refusal.txt
+guardrail:
+  type: sandwich
+  input_classifier:
+    model:
+      name: nvidia/Nemotron-3-Nano-Omni
+      temperature: 0.0
+    prompt: prompts/classifier_input.txt
+  output_validator:
+    model:
+      name: nvidia/Nemotron-3-Nano-Omni
+      temperature: 0.0
+    prompt: prompts/classifier_output.txt
