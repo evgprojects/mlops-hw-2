@@ -1,0 +1,4 @@
+{"ts": "2026-06-06T14:35:16.524133+00:00", "alias": "production", "from": "", "to": "v4", "op": "set"}
+{"ts": "2026-06-06T14:37:29.882848+00:00", "alias": "production", "from": "v4", "to": "v5", "op": "set"}
+{"ts": "2026-06-06T14:38:10.036108+00:00", "alias": "production", "from": "v5", "to": "v4", "op": "rollback"}
+{"ts": "2026-06-06T14:46:11.556599+00:00", "alias": "production", "from": "v4", "to": "v5", "op": "set"}

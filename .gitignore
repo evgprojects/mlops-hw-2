@@ -28,9 +28,6 @@ mlops-hw-tf-api-key.*
 mlruns/
 mlflow.db
 
-# Promotion CLI audit log (Task 2)
-promotion-log.jsonl
-
 # Hometask-author internal design notes (not student-facing)
 PLAN.md
 
